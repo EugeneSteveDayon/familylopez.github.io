@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lopez</title>
+<style>
+  body {
+    background-color: #1d1d1d;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 40px;
+  }
+  
+  /* 📄 Text below each photo */
+  .photo p {
+    margin-top: 10px;
+    font-size: 30px;       /* ← text size (change number if needed) */
+    font-weight: bold;     /* ← bold text */
+    color: red;        /* ← text color (you can change this) */
+    border-radius: 10px;
+    padding: 15px 25px;
+    background-color: #262626;
+   border: 3px solid black
+  }
+  
+   .gallery {
+   display: flex;          /* line up items side by side */
+   justify-content: center;/* center them horizontally */
+   gap: 20px;              /* space between photos */
+   margin-top: 20px;       /* space from top of page */
+  }
+
+ .gallery img {
+   width: 350px;           /* size of each image */
+   height: auto;
+   border-radius: 10px;    /* rounded corners (optional) */
+  }
+  
+  .photo-bottom {
+   text-align: center;
+   margin-top:20px;
+  }
+  
+  .photo-bottom video {
+   width: 250px;
+   border-radius: 10px;
+  }
+  
+  .photo-bottom p {
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: green;
+    background-color: #262626;
+    text-align: center;
+    display: block;
+    border: 3px solid black;
+    padding: 15px;
+  }
+  
+  h1 {
+   color: #d25d0af0;
+   font-size: 75px;       /* change text size */
+   font-weight: bold;     /* make it bold */
+   position: relative;    /* allows moving */
+   top: 0;                /* move up/down */
+   left: 0;               /* move left/right */
+   text-align: center;    /* center horizontally */
+   margin-bottom: 100px;   /* space below title */
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+   padding: 15px 25px;
+   border: 3px solid black;
+   border-radius: 19px;
+   background: #262626;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  }
+  }
+  }
+</style>
+</head>
+<body>
+  <h1>𝐅𝐀𝐌𝐈𝐋𝐘 𝐋𝐎𝐏𝐄𝐙</h1>
+
+<div class="gallery">
+  <div class="photo">
+    <img src="Franz.jpg" alt="Photo 1">
+    <p>FRANCISCO LOPEZ</p>
+  </div>
+
+  <div class="photo">
+    <img src="Chunlyn.jpg" alt="Photo 2">
+    <p>ZARAH LOPEZ</p>
+  </div>
+
+  <div class="photo">
+    <img src="Carol.jpg" alt="Photo 3">
+    <p>LILLIAN LOPEZ</p>
+  </div>
+ </div>
+  
+  <div class="photo-bottom">
+   <video controls>
+     <source src="video.mp4" type="video/mp4">
+     Your browser does not support video tag.
+   </video>
+   <p>VIDEO TEST</p>
+  </div>
+</div>
+  </div>
+</body>
+</body>
+</body>
+</html>
